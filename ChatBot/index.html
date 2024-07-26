@@ -86,9 +86,9 @@ h1 {
 
   <script type="module">
     import { GoogleGenerativeAI } from "@google/generative-ai"
-    const clave = "AIzaSyDWsIshMAmX2BGxnl4_4l91Y721o3s-lBg"
+    const K = "AIzaSyDWsIshMAmX2BGxnl4_4l91Y721o3s-lBg"
 
-    const genAI = new GoogleGenerativeAI(clave)
+    const genAI = new GoogleGenerativeAI(K)
     const model = genAI.getGenerativeModel({ model: "gemini-pro" })
 
     document.querySelector("#botonConsulta").addEventListener("click", async () => {
