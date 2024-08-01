@@ -5,6 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import ChatHistory from "../COMPONENTS/Chatbot/ChatHistory";
 import Loading from "../COMPONENTS/Chatbot/Loading";
 import Navbar from "../COMPONENTS/Navbar";
+import '../index';
 
 const Chatbot = () => {
   const [userInput, setUserInput] = useState("");

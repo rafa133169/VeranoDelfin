@@ -16,6 +16,7 @@
 
 import { AreaChart } from '@tremor/react';
 
+
 const chartdata = [
   {
     date: 'Jan 23',

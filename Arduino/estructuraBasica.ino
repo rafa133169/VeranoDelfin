@@ -54,7 +54,7 @@ void loop()
     }
 
     // Imprimir datos en el monitor serial
-    Serial.print("Water Temp: ");
+    Serial.print( "Water Temp: ");
     Serial.print(waterTemp);
     Serial.print(" C, Air Temp: ");
     Serial.print(airTemp);

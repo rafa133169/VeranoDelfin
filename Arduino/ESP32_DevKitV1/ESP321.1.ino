@@ -11,10 +11,10 @@
 #define SD_CS_PIN 5
 
 // Definiciones
-// OneWire oneWire(ONE_WIRE_BUS);
-// DallasTemperature sensors(&oneWire);
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);
 DHT dht(DHTPIN, DHT11);
-// File dataFile;
+File dataFile;
 
 void setup()
 {

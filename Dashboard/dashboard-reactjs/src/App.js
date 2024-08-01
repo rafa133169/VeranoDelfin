@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./PAGES/Main";
 import Chatbot from "./PAGES/Chatbot";
 import Analytics from "./PAGES/Analytics";
+import './index.css';
 
 
 
