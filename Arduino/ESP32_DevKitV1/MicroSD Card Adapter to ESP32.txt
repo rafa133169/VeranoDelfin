@@ -1,0 +1,7 @@
+MicroSD Card Adapter 
+GND del adaptador -> GND del ESP32.
+VCC del adaptador -> 3.3V del ESP32.
+MISO del adaptador -> GPIO 19 del ESP32.
+MOSI del adaptador -> GPIO 23 del ESP32.
+SCK del adaptador -> GPIO 18 del ESP32.
+CS del adaptador -> GPIO 5 del ESP32.
